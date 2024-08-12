@@ -119,15 +119,27 @@
               </span>
             </label>
 
-            <label class="modal-label" for="modal-input-comment">Comment</label>
-            <div class="modal-input-div">
+            <label class="modal-label" for="modal-input-comment">
+              Comment
               <textarea
                 name="comment"
                 id="modal-input-comment"
                 class="modal-form-textarea"
                 placeholder="Text input"
               ></textarea>
+            </label>
+            <div class="modal-checkbox-div">
+              <span class="modal-checkbox-icon-span">
+                <svg class="modal-checkbox-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-allow"></use>
+                </svg>
+              </span>
+              <p class="modal-checkbox-text">
+                I accept the terms and conditions of the&nbsp;
+              </p>
+              <a href="" class="modal-checkbox-link"> Privacy Policy</a>
             </div>
+            <button class="modal-button" type="submit">Send</button>
           </form>
         </div>
       </div>
@@ -541,6 +553,23 @@
               </a>
             </li>
           </ul>
+        </div>
+        <div class="footer-subscribe-div">
+          <p class="footer-subscribe-text">Subscribe</p>
+          <div class="footer-subscribe-elements-div">
+            <input
+              name="footer_email"
+              placeholder="E-mail"
+              type="text"
+              class="footer-subscribe-input"
+            />
+            <div class="footer-subscribe-button">
+              <p class="footer-subscribe-button-text">Subscribe</p>
+              <svg class="footer-subscribe-icon" width="24" height="20">
+                <use href="./images/icons.svg#icon-wing"></use>
+              </svg>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
